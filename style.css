@@ -1,0 +1,118 @@
+h1 { 
+	color:deeppink; 
+	text-align: center; 	
+	font-size: 100px; 
+	background-color: white;
+}
+
+h2,h3 { 
+	text-align: center; 
+}
+
+
+
+#yesbutton {
+	background: lightgreen; 
+	font-size: 70px; 
+	margin-right: 50px;
+	width: 250px;
+    height: 150px;
+    text-align: center;
+	border-radius: 50px;
+}
+
+#nobutton {
+	background:	#ff6971; 
+	font-size: 70px;
+	width: 250px;
+    height: 150px;
+	border-radius: 50px;
+}
+body {
+	background-image: url(pictures/background.png);
+}
+
+#happy-cat {
+	width: 400px;
+    height: auto;
+}
+
+#yesbutton2 {
+	background: lightgreen; 
+	font-size: 70px; 
+	margin-right: 50px;
+	width: 300px;
+    height: 300px;
+    text-align: center;
+	border-radius: 50px;
+}
+
+#nobutton2 {
+	background:	#ff6971; 
+	font-size: 35px;
+	width: 100px;
+    height: 100px;
+    text-align: center;
+	border-radius: 50px;
+}
+
+#yesbutton3 {
+	background: lightgreen; 
+	font-size: 150px; 
+	margin-right: 50px;
+	width: 400px;
+    height: 400px;
+    text-align: center;
+	border-radius: 50px;
+}
+
+#nobutton3 {
+	background:	#ff6971; 
+	font-size: 20px;
+	width: 50px;
+    height: 50px;
+    text-align: center;
+	border-radius: 50px;
+}
+
+#yesbutton4 {
+	background: lightgreen; 
+	font-size: 150px; 
+	margin-right: 50px;
+	width: 450px;
+    height: 450px;
+    text-align: center;
+	border-radius: 50px;
+}
+
+#nobutton4 {
+	background:	#ff6971; 
+	font-size: 5px;
+	width: 15px;
+    height: 15px;
+    text-align: center;
+	border-radius: 50px;
+}
+#bananacat,#sadcat,#cathead {
+	width: auto;
+    height: 300px;
+}
+
+#broken-heart {
+	width: auto;
+    height: 500px;
+}
+
+@keyframes slideIn {
+	from {
+	  transform: translateX(-100%);
+	}
+	to {
+	  transform: translateX(0);
+	}
+  }
+  
+  .animated-text {
+	font-size: 100px;
+	animation: slideIn 1.5s ease-out;
+  }
